@@ -322,7 +322,7 @@ If you find this work useful or relevant to your research, please cite:
 
 ## License
 
-This project is released under the MIT License. [TODO: add the LICENSE file if it is not included in the repository.]
+This project is released under the [MIT License](./LICENSE).
 
 ## BUG?
 
