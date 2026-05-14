@@ -62,7 +62,11 @@ Prepare your image dataset and checkpoints:
 └── ps_14.pt
 ```
 
-Download the pretrained checkpoints from [Google Drive](https://drive.google.com/drive/folders/1ALBA2Mw9UchimlPNgA-m_FjT4-U364Cb?usp=sharing) and place the downloaded `.pt` files under `checkpoints/`.
+Download the pretrained checkpoints from the `checkpoints` subdirectory in [Google Drive](https://drive.google.com/drive/folders/1ALBA2Mw9UchimlPNgA-m_FjT4-U364Cb?usp=sharing) and place the downloaded `.pt` files under `checkpoints/`, or run:
+
+```bash
+python download_checkpoints.py
+```
 
 ## Run a Simple Demo
 

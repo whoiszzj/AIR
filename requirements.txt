@@ -10,6 +10,7 @@ rich
 sympy
 matplotlib
 tqdm
+gdown
 timm
 constriction
 vector-quantize-pytorch

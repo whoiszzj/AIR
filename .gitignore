@@ -419,7 +419,8 @@ FodyWeavers.xsd
 /.vscode
 /demo
 /output
-/checkpoints
 /workspace
+
+# Checkpoint artifacts
 /checkpoints
 *__pycache__*
