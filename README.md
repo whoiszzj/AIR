@@ -46,22 +46,23 @@ mkdir -p checkpoints data output workspace
 Prepare your image dataset and checkpoints:
 
 ```bash
-./data
+./data  # demo datasets
 ├── kodak
 │   ├── kodim01.png
 │   ├── kodim02.png
-│   └── ...
+│   └── kodim03.png
 └── 0844x2.png
 
 ./checkpoints
-├── dinov3_vitb16_pretrain_lvd1689m-73cec8be.pth
+├── dinov3_vitb16_pretrain_lvd1689m-73cec8be.pth  # from offical
+├── pod.pt
 ├── ps_5.pt
 ├── ps_6.pt
 ├── ps_7.pt
 └── ps_14.pt
 ```
 
-[TODO: Add checkpoint download link and place downloaded `.pt` files under `checkpoints/`.]
+Download the pretrained checkpoints from [Google Drive](https://drive.google.com/drive/folders/1ALBA2Mw9UchimlPNgA-m_FjT4-U364Cb?usp=sharing) and place the downloaded `.pt` files under `checkpoints/`.
 
 ## Run a Simple Demo
 
