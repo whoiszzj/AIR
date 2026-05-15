@@ -28,6 +28,21 @@ The pipeline progressively reconstructs an image from an empty canvas. At each s
 
 ## Quick Start
 
+### Repository Structure
+
+```bash
+.
+├── configs                 # Training configuration files
+├── model                   # AIRNet, Gaussian heads, quantization, rendering utilities
+├── train                   # PyTorch Lightning training pipeline
+├── test                    # Inference, metrics, visualization, and I/O helpers
+├── submodules              # Local dependencies: gsplat and fused-ssim
+├── train.sh                # Example training command
+├── run_slurm.sh            # SLURM multi-node DDP training template
+├── infer.sh                # Example inference command
+└── requirements.txt        # Python dependencies
+```
+
 ### Setup
 
 Clone the repository and create the conda environment:
@@ -287,21 +302,6 @@ A typical workflow is:
 7. Adapt patch size with `configs/4_patch_size_finetune_config.json` when a different Gaussian density or bitrate operating point is needed.
 8. Refine on the target dataset with `configs/3_div2k_refine_config.json`.
 9. Use the generated checkpoint with `test/infer.py`.
-
-## Repository Structure
-
-```bash
-.
-├── configs                 # Training configuration files
-├── model                   # AIRNet, Gaussian heads, quantization, rendering utilities
-├── train                   # PyTorch Lightning training pipeline
-├── test                    # Inference, metrics, visualization, and I/O helpers
-├── submodules              # Local dependencies: gsplat and fused-ssim
-├── train.sh                # Example training command
-├── run_slurm.sh            # SLURM multi-node DDP training template
-├── infer.sh                # Example inference command
-└── requirements.txt        # Python dependencies
-```
 
 ## Acknowledgments
 
