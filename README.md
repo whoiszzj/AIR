@@ -1,7 +1,7 @@
 # AIR: Amortized Image Reconstruction Framework for Self-Supervised Feed-Forward 2D Gaussian Splatting
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
-[![Paper](https://img.shields.io/badge/Paper-AIR-b31b1b.svg)](#citation)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Paper](https://img.shields.io/badge/Paper-AIR-b31b1b.svg)](https://arxiv.org/abs/2605.20820)
 
 This repository contains the official implementation of **AIR: Amortized Image Reconstruction Framework for Self-Supervised Feed-Forward 2D Gaussian Splatting**.
 
@@ -322,7 +322,15 @@ Thanks to the following open-source projects and libraries:
 If you find this work useful or relevant to your research, please cite:
 
 ```bibtex
- [TODO: add paper citation]
+@misc{zeng2026airamortizedimagereconstruction,
+      title={AIR: Amortized Image Reconstruction Framework for Self-Supervised Feed-Forward 2D Gaussian Splatting}, 
+      author={Zhaojie Zeng and Yuesong Wang and Yawei Luo and Tao Guan},
+      year={2026},
+      eprint={2605.20820},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.20820}, 
+}
 ```
 
 ## License
